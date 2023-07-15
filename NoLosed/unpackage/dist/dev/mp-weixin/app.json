@@ -1,6 +1,9 @@
 {
     "pages": [
-        "pages/index/index"
+        "pages/index/index",
+        "pages/queryQrCode/queryQrCode",
+        "pages/editQrCode/editQrCode",
+        "pages/msgExamples/msgExamples"
     ],
     "window": {
         "navigationBarTextStyle": "black",

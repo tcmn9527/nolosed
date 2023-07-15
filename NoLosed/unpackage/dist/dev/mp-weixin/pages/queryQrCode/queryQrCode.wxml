@@ -1,0 +1,2 @@
+<view class="page_style"><text class="title">{{a}}</text><view class="info"><view class="info_title"><text>防丢信息</text></view><view class="info_content"><text>您好：这是挂在我孩子书包上的防丢码，我是孩子的妈妈，手机号150xxxxxxxx，如果小孩不慎走失或者遇到其他任何意外，麻烦您帮忙打我电话，万分感谢。祝您好人一生平安！</text></view></view><block wx:if="{{r0}}"><textarea auto-height style="background-color:aquamarine" value="{{b}}" bindinput="{{c}}">
+		</textarea></block><button bindtap="{{d}}">显示富文本</button><textarea auto-height><rich-text nodes="{{e}}"/></textarea></view>

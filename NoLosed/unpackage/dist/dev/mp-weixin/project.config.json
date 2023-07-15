@@ -18,20 +18,10 @@
         }
     },
     "compileType": "miniprogram",
-    "libVersion": "2.26.1",
+    "libVersion": "2.33.0",
     "appid": "touristappid",
     "projectname": "NoLosed",
-    "condition": {
-        "miniprogram": {
-            "list": [
-                {
-                    "name": "pages/index/index",
-                    "pathName": "pages/index/index",
-                    "query": ""
-                }
-            ]
-        }
-    },
+    "condition": {},
     "editorSetting": {
         "tabIndent": "insertSpaces",
         "tabSize": 4

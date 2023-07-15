@@ -1,26 +1,31 @@
 <template>
 	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
 		<view class="text-area">
 			<text class="title">{{title}}</text>
 		</view>
+		<button @click="jump">跳转</button>
 	</view>
 </template>
 
 <script>
-	export default {
-		data() {
-			return {
-				title: 'Hello2'
-			}
-		},
-		onLoad() {
+export default {
+	data() {
+		return {
+			title: 'Hello2'
+		}
+	},
+	onLoad() {
 
-		},
-		methods: {
-
+	},
+	methods: {
+		jump () {
+			console.log('点击了跳转按钮');
+			uni.redirectTo({
+				url:'/pages/editQrCode/editQrCode'
+			})
 		}
 	}
+}
 </script>
 
 <style>
@@ -29,15 +34,6 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-	}
-
-	.logo {
-		height: 200rpx;
-		width: 200rpx;
-		margin-top: 200rpx;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 50rpx;
 	}
 
 	.text-area {

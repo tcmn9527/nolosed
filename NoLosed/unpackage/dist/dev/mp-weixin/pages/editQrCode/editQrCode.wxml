@@ -1,0 +1,1 @@
+<view class="content"><view class="subTitleParent"><label class="subTitle">请输入防丢信息:</label><label class="rightMinBtn" bindtap="{{a}}">查看范例</label></view><textarea class="editInfo" auto-height></textarea><label class="subTitle">请输入联系电话:</label><textarea class="editPhone"></textarea><view class="btns"><button class="saveBtn">保存</button></view></view>

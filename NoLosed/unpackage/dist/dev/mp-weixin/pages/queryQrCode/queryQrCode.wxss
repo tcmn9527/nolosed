@@ -1,0 +1,12 @@
+
+.page_style {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: left;
+}
+.title {
+		align-self: center;
+		font-size: 36rpx;
+		color: #8f8f94;
+}
